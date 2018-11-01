@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128514351-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-128514351-1');
+		</script>
+		
+		<title>Xi Chen's Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body>
+		<!-- star -->
+		<!-- <div class="star-up"><div class="stars"></div></div> -->
+		<canvas id="starts">该浏览器不支持canvas</canvas>
+		<div class="mask"></div>
+		<div id="page-wrapper">
+			<div id="wrapper">
+				<div class="top-nav">
+					<a href="#zero"><div class="logo"></div></a>
+					<div class="nav">
+						<a href="#zero" class="nav-active">PORTFOLIO</a>
+						<a href="about.html">ABOUT</a>
+						<a href="assets/Resume_Xi Chen.pdf" target="_blank">RESUME</a>
+					</div>
+				</div>
+				<!-- Xi -->
+				<section class="panel banner right panel-main" id="zero">
+					<div class="content color0 span-5-75 main-page">
+						<!--<h1 class="major-none"></h1>-->
+						<p>
+							<h1>UX & TECHNOLOGY</h1><br>
+							<h3>HI, I'M XI</h3>
+							<h5>UX Designer Focusing on AI, Visualization, and Accessibility</h5>
+							<h5>MS HCI Student @ Georgia Tech  |  UX Design Intern @ Tencent  |  UX Intern @ Microsoft | CS Student @ Peking U</h5>
+						</p>
+						<!--<ul class="actions">
+							<li>
+								<a href="#first" class="button special color1 circle icon fa-angle-right">Next</a>
+							</li>
+						</ul>-->
+					</div>
+				</section>
+
+				<!-- Tencent -->
+				<section class="panel spotlight piece right" id="first" onclick="location.href='tencent.html'">
+					<div class="content">
+						<div class="major-img" style="background-image:url(assets/img/main/tencent.png);"></div>
+						<h2 class="major">Tencent Internship</h2>
+						<h4 class="major-cate">Contextual Design | AI + UI | Machine Learning</h4>
+						<p class="major">​Personalize UI and recommend more accurate functionalities to users.</p>
+					</div>
+				</section>
+
+				<!-- GatePal -->
+				<section class="panel spotlight piece right" id="second" onclick="location.href='GatePal.html'">
+					<div class="content">
+						<div class="major-img" style="background-image:url(assets/img/main/gatepal.png);"></div>
+						<h2 class="major">GatePal</h2>
+						<h4 class="major-cate">Universal Design | UX Research | iOS Development</h4>
+						<p class="major">​Enhance navigational experience for people with different physical abilities.</p>
+					</div>
+				</section>
+
+				<!-- Microsoft -->
+				<section class="panel spotlight piece left" id="third" onclick="location.href='InfoNice.html'">
+					<div class="content">
+						<div class="major-img" style="background-image:url(assets/img/main/microsoft.png)"></div>
+						<h2 class="major">Microsoft Internship</h2>
+						<h4 class="major-cate">Information Visualization | UX Research | Web Development</h4>
+						<p class="major">​Enable users to create data-driven infographics easily. It’s already launched!</p>
+					</div>
+				</section>
+
+				<!-- Align -->
+				<section class="panel spotlight piece left" id="fifth" onclick="location.href='align.html'">
+					<div class="content">
+						<div class="major-img" style="background-image:url(assets/img/main/align.png);"></div>
+						<h2 class="major">Align</h2>
+						<h4 class="major-cate">iOS Design & Development | Crowdsourcing | Non-Visual UI</h4>
+						<p class="major">Plan your ideal pedestrian route based on route conditions and crowdsourcing.</p>
+					</div>
+				</section>
+
+				<!-- InfNote -->
+				<section class="panel spotlight piece left" id="forth" onclick="location.href='InfNote.html'">
+					<div class="content">
+						<div class="major-img" style="background-image:url(assets/img/main/infNote.png);"></div>
+						<h2 class="major">InfNote</h2>
+						<h4 class="major-cate">iOS & Web Design | Blockchain</h4>
+						<p class="major">Blockchain based forum which provides peer-to-peer and high reliability posts. It’s ready to launch!</p>
+					</div>
+				</section>
+
+				<!-- Gesture Detection -->
+				<section class="panel spotlight piece left" id="sixth" onclick="location.href='finger.html'">
+					<div class="content">
+						<div class="major-img" style="background-image:url(assets/img/main/gesture.png);"></div>
+						<h2 class="major">Gesture Detection</h2>
+						<h4 class="major-cate">Machine Learning | UX Research | Sensor Technology</h4>
+						<p class="major">A thumb-mounted sensing solution to enable eyes-free interactions.</p>
+					</div>
+				</section>
+			</div>
+		</div>
+
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/skel.min.js"></script>
+		<script src='assets/js/prefixfree.min.js'></script>
+		<script src="assets/js/resize.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script src='assets/js/stopExecutionOnTimeout.js'></script>
+		<script src='assets/js/stars.js'></script>
+	    <!--<script>stars("starts",225,200,60,2,270000,0.5)</script>-->
+		<!-- <script>
+				$(document).ready(function () {
+					var stars = 600;
+					var $stars = $('.stars');
+					var r = 800;
+					for (var i = 0; i < stars; i++) {
+						if (window.CP.shouldStopExecution(1)) {
+							break;
+						}
+						var $star = $('<div/>').addClass('star');
+						$stars.append($star);
+					}
+					window.CP.exitedLoop(1);
+					$('.star').each(function () {
+						var cur = $(this);
+						var s = 0.2 + Math.random() * 1;
+						var curR = r + Math.random() * 300;
+						cur.css({
+							transformOrigin: '0 0 ' + curR + 'px',
+							transform: ' translate3d(0,0,-' + curR + 'px) rotateY(' + Math.random() * 360 + 'deg) rotateX(' + Math.random() * -50 + 'deg) scale(' + s + ',' + s + ')'
+						});
+					});
+				});
+			
+		</script> -->
+	</body>
+</html>
