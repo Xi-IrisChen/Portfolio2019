@@ -22,24 +22,28 @@
 
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/project.js"></script>
+<style>
+  .float-nav { background-color:rgba(255, 255, 255, 0.9); }
+</style>
+
 </head>
 
 <body>
 <div id="project-page">
 
     <div class="top-nav">
-        <a href="index.html"><div class="logo"></div></a>
-        <div class="nav">
-            <a href="index.html">PORTFOLIO</a>
-            <a href="index.html#mini-projects">MINI PROJECTS</a>
+        <a href="index.html"><div class="logo_dark"></div></a>
+        <div class="nav_dark">
+            <a href="index.html" class="nav-active">PORTFOLIO</a>
+            <a href="about.html">ABOUT</a>
             <a href="assets/Resume_Xi Chen.pdf" target="_blank">RESUME</a>
-            <a href="#" class="nav-active">ABOUT</a>
         </div>
     </div>
+    <div class="float-nav"></div>
   
   <div id="project-main">
     <div id="aboutProfile">
-      <span class="hide-more" onclick="javascript:location.href='index.html'"></span>
+      <!--<span class="hide-more" onclick="javascript:location.href='index.html'"></span>-->
     	<div class="container">
     		<img style="margin-top: 20px;" src="assets/img/profile.jpeg">
     		<div id="aboutProfile_text">
