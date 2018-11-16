@@ -3252,7 +3252,7 @@ body {
     padding: 0;
     margin: 0 15px;
     cursor: pointer;
-    color: transparent !important;
+    color: transparent;
     background-size: cover;
     background: linear-gradient(45deg,#8A2387,#E94057, #F27121,white,white);
     background-size: 400% 100%;
