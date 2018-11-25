@@ -69,9 +69,9 @@ a:hover {
     color:rgb(143, 160, 255)
 }
 img{
-   margin: 20px 0;
+  /* margin: 20px 0;*/
    display: block;
-   margin-top: 40px;
+  /* margin-top: 40px;*/
 
 }
 
@@ -393,7 +393,7 @@ p.project-desc {
   font-size: 0.75rem;
   font-weight: 300;
   line-height: 1.5rem;
-  color: hsla(0,0%,100%,.8);
+  color: hsla(0,0%,100%);
 }
 
 p.left-vertical-line {
