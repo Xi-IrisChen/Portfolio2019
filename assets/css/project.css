@@ -101,6 +101,8 @@ img{
 }
 .float-nav .nav a:hover {
     color: #FFFFFF;
+    font-weight: 500;
+    opacity: 100%;
 }
 
 .float-nav .nav_dark {
