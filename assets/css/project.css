@@ -24,6 +24,18 @@ img{
     display: none;
 }
 
+.overview-table {
+    margin: 0 auto;
+    width: 55%;
+}
+.overview-table tbody tr {
+    background: none !important;
+    border: 0;
+}
+.overview-table tbody tr td {
+    padding: 0.55rem 0.75rem;
+}
+
 .hidden{
     display: none;
 }

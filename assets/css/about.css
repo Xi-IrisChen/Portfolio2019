@@ -1,20 +1,25 @@
-.top-nav {
+/*.top-nav {
 	position: fixed;
     width: 800px;
     height: 15%;
     top: calc( 5% - 22px );
     left: calc( 50% - 400px);
     display: block;
-}
+}*/
 
 #project-main {
     background: #FFF;
     padding: 0px;
-    color: #000110;
-    padding-top: 13%;
+    color: #71CBE2;
+    padding-top: 68px;
 }
 
-.top-nav .logo {
+a:hover {
+    border-bottom-color: transparent;
+    color:#71CBE2;
+}
+
+/*.top-nav .logo {
     width: 4em;
     height: 2em;
     background: url(../../images/logo_dark.png) no-repeat;
@@ -68,23 +73,25 @@
 	-o-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 }
-
+*/
 
 #aboutProfile {
 }
 #aboutProfile img{
-	float: right;
-	width: 35%;
+    width: 20%;
+	/*float: right;
+	width: 25%;*/
 }
 #aboutProfile_text {
-	width: 60%;
-	float: left;
+    margin-top: 20px;
+	/*width: 70%;
+	float: left;*/
 }
 #aboutProfile h3{
-	font-size: 1.4em;
+	font-size: 0.89rem;
 }
 #aboutProfile h4{
-	font-size: 1.1em;
+	font-size: 0.75rem;
 	font-family: 'Avenir Next', sans-serif;
 	line-height: 23px;
 }
@@ -92,8 +99,14 @@
 	font-weight: 500;
 }
 
+#aboutProfile h5{
+    font-size: 0.70rem;
+    font-family: 'Avenir Next', sans-serif;
+    line-height: 19px;
+}
+
 #hobbies h3{
-	font-size: 1.4em;
+	font-size: ;
 }
 #hobbies h4{
 	font-size: 1.1em;
@@ -102,6 +115,14 @@
 }
 #hobbies h4 strong{
 	font-weight: 500;
+}
+
+span.key-word {
+    margin-left: 20px;
+    font-size: 0.89rem;
+    color: #000110;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
 }
 
 @media screen and (max-width:415px){

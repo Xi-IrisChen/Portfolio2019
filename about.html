@@ -24,7 +24,8 @@
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/project.js"></script>
 <style>
-  .float-nav { background-color:rgba(255, 255, 255, 0.9); }
+    .top-img, .bottom-nav, .select:before { background-color:#71CBE2; }
+    .float-nav { background-color:rgba(113, 203, 226, 0.9); }
 </style>
 
 </head>
@@ -32,69 +33,76 @@
 <body>
 <div id="project-page">
 
-    <div class="top-nav">
-          <a href="index.html"><div class="logo"></div></a>
-          <div class="nav">
+  <div class="top-nav">
+        <a href="index.html"><div class="logo"></div></a>
+        <div class="nav">
             <a href="index.html">PORTFOLIO</a>
             <a href="about.html" class="nav-active">ABOUT</a>
             <a href="assets/Resume_Xi Chen.pdf" target="_blank">RESUME</a>
-          </div>
         </div>
+  </div>
+  <div class="float-nav"></div>
+  <span class="project-nav-toggle"><i></i></span>
   
   <div id="project-main">
     <div id="aboutProfile">
-      <!--<span class="hide-more" onclick="javascript:location.href='index.html'"></span>-->
-    <div class="project-narrow-content">
-    	<div class="container">
-    		<img style="margin-top: 20px;" src="assets/img/profile.jpeg">
-    		<div id="aboutProfile_text">
-          <h3>HI, I'M XI.</h3>
-          <br>
-          <h3>I'm a UX Designer focusing on AI products</h3><br>
-          <h4>Instead of most focusing on improving the accuracy of algorithm during my cs undergraduate, <b>I felt excited to put it into real-world use and infused a little more efficient and intelligent into daily life.</b> That’s why I stepped into design. I felt it’s just the right time! I really enjoy coming up with new ideas and scenarios incorporating AI.  <br><br>
-            <b>For my interaction design internship in Tencent, I wrote the article ‘A designer’s guide to machine learning’ and also came up with new ideas for three projects. </b> I know it’s just a start! Due to my understanding of the abilities and constraints of technologies, I try to provide strong, scientific rationale for every design decision and also facilitate the cooperation with engineers.<br><br><br></h4>
-           
-        </div>
-    </div>
-    	</div>
-    </div>
-
-    <section id="hobbies">
-    <div class="container">
+      <img style = "width:100%" src="assets/img/profile.jpg"><br><br>
+      
       <div class="project-narrow-content">
-         <h4>Following are some AI issues I’m thinking about recently, any feedback or discussion is welcomed:<br></h4>
-          <img style = "width:100%" src="assets/img/about me.png" data-action="zoom"><br><br><br>
+          <h3>HI, I'M XI.</h3><br><br>
+          <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+              <img style = "width: 10%; float: left; " src="images/logo_theme.png">
+              <span class="key-word">Infinity within the Finity.</span>
 
-          <h3>My background is data visualization and accessibility</h3><br>
-          <h4><strong>Data Visualization:</strong> <br>During my undergraduate and internship in <a href="https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380898?tab=Overview" target="_blank">Microsoft Research Asia</a>, I’m a visualization designer and developer. I’m obsessed with developing interfaces to help people better explore, interact with data to get more insights.</h4><br>
-          <h4><strong>Accessibility:</strong> <br>In the past year, when I’m a research assistant at Georgia tech, I realize designing considering people with different physical abilities is more challenging! I always try to think more comprehensive and gradually gain more empathy especially after deeper contact with users. Right now I also focus on designing ‘non-visual UI’ and combining multiple modalities that can meet all users’ needs to create an optimal experience regardless of ability.</h4><br><br><br>
+              <br><br><br>
 
-          <h3>Infinity within the Finity</h3><br>
-          <h4>Like the icon I designed, I’m always finding and pursuing “Infinity within the Finity”, “possibility within the certainty”. “From Follower to Pioneer”, it is what I believe and what I want to be.</h4><br><br><br>
+              <h4>Like the icon I designed, I always finding and pursuing the ‘infinity within the finity’. I love exploring all kinds of new technologies to put them into real-world use to solve real challenges, like <a href="home depot.html" target="_blank">AR</a>, <a href="InsVoice.html" target="_blank">VUI</a>, <a href="Tencent.html" target="_blank">machine learning</a>, <a href="NEST.html" target="_blank">ambient visualization</a>, <a href="Align.html" target="_blank">crowdsourcing</a>, <a href="InfNote.html" target="_blank">blockchain</a>, <a href="Finger.html" target="_blank">ubiquitous computing</a>… </h4><br>
+              <h4>‘Infinity’ to me also means ‘constantly growing’. I appreciate any suggestion or feedback I could get, and also love to share my knowledge to others to contribute to the whole community. I want myself keep growing and improving. It never ends!</h4><br><br><br>
 
-          <h3>My Design Philosophy</h3><br>
+
+              <p class="left-vertical-line margin-top-1">
+              <span class="key-word">My background is AI, visualization and accessibility.</span>
+            </p>
+
+            <h4><strong>AI</strong></h4>
+              <h4>As AI algorithms more mature, it's no longer the stuff of science fiction, it’s happening now! I felt it’s just the right time to put AI or other new technologies into real-world use to solve challenges and change the world!<br><br>
+              For my <a href="Tencent.html" target="_blank">UX design internship in Tencent</a> (which is the largest internet company in China), I wrote the article ‘A designer’s guide to machine learning’ and also came up with new ideas for three projects. It’s just a start!<br><br></h4>
+
+    
+              <h4><strong>Data Visualization</strong> <br>During my undergraduate and <a href="InfoNice.html" target="_blank">UX intern in Microsoft Research Asia</a>, I’m obsessed with designing and developing interfaces to help people better explore data to find more insights.</h4><br>
+
+              <h4><strong>Accessibility</strong> <br>As a <a href="GatePal.html" target="_blank">UX designer and researcher at Georgia tech</a> in the past year, I realize designing for people with different abilities is more challenging! I try to think more comprehensive and gradually gain more empathy especially after deeper contact with users.</h4><br><br><br><br>
+            </div>
+        </div>
+
+      
+
+          <!--<h3>My Design Philosophy</h3><br>
           <ul type="Square">
             <li><h4>Design communicates obvious function: Use logical thinking to prioritize information, communicate clear, obvious, intuitive functions and provide seamless guide for users of how to interact with it.</h4></li>
             <li><h4>Design should incentive engagement and motivation: Use empathy to understand the end users and their needs and create moments of delight for people who encounter it.</h4></li>
             <li><h4>Understanding the core principles, abilities, and constraints of advanced technology(e.g. Machine learning, Image recognition) helps me improve the rationality of design process. Accumulation in web and iOS development facilitates the communication between designer and developer.</h4></li>
-          </ul><br><br>
+          </ul><br><br>-->
 
-          <h3>Things I love...</h3>
-      <div class="row centered mt mb">
-        <!--<h3>Things I Love...</h3>-->
+
+          <p class="left-vertical-line margin-top-1">
+              <span class="key-word">Things I love...</span>
+          </p>
+            <div class="row centered mt mb">
         
         <div class="row multi-columns-row">
           
           <!-- CONTENT BOX -->
           <div class="col-sm-4 col-md-4 col-lg-4">
             <div class="content-box">
-              <img src="assets/img/hobby/black/design.png" class="img-responsive">
-              <div class="content-box-title font-inc font-uppercase">
-                Design 
-              </div>
-              <div class="content-box-text">
+              <img src="assets/img/hobby/design.png" class="img-responsive">
+              <h4 class="content-box-title font-inc font-uppercase">
+                <strong>Design</strong>
+              </h4>
+              <h5 class="content-box-text">
                 UX and UI - Adobe Photoshop, Illustrator, InDesign, Sketch.
-              </div>
+              </h5>
             </div>
           </div>
           <!-- /CONTENT BOX -->
@@ -102,13 +110,13 @@
           <!-- CONTENT BOX -->
           <div class="col-sm-4 col-md-4 col-lg-4">
             <div class="content-box">
-              <img src="assets/img/hobby/black/photography.png" class="img-responsive">
-              <div class="content-box-title font-inc font-uppercase">
-                Photography
-              </div>
-              <div class="content-box-text">
+              <img src="assets/img/hobby/photography.png" class="img-responsive">
+              <h4 class="content-box-title font-inc font-uppercase">
+                <strong>Photography</strong>
+              </h4>
+              <h5 class="content-box-text">
                 Instead of under cultural bias, I prefer to embrace the multiplicity of life. I believe, where there is the possibility, there is creativity.
-              </div>
+              </h5>
             </div>
           </div>
           <!-- /CONTENT BOX -->
@@ -116,13 +124,13 @@
           <!-- CONTENT BOX -->
           <div class="col-sm-4 col-md-4 col-lg-4">
             <div class="content-box">
-              <img src="assets/img/hobby/black/music.png" class="img-responsive">
-              <div class="content-box-title font-inc font-uppercase">
-                Music
-              </div>
-              <div class="content-box-text">
+              <img src="assets/img/hobby/music.png" class="img-responsive">
+              <h4 class="content-box-title font-inc font-uppercase">
+                <strong>Music</strong>
+              </h4>
+              <h5 class="content-box-text">
                 Use rhythm in piano, posture in ballet as a way to understand and express emotions. National certificated at the age of 12!
-              </div>
+              </h5>
             </div>
           </div>
           <!-- /CONTENT BOX -->
@@ -130,26 +138,26 @@
           <!-- CONTENT BOX -->
           <div class="col-sm-4 col-md-4 col-lg-4">
             <div class="content-box">
-              <img src="assets/img/hobby/black/development.png" class="img-responsive">
-              <div class="content-box-title font-inc font-uppercase">
-                Front-end Development
-              </div>
-              <div class="content-box-text">
+              <img src="assets/img/hobby/development.png" class="img-responsive">
+              <h4 class="content-box-title font-inc font-uppercase">
+                <strong>Coding</strong>
+              </h4>
+              <h5 class="content-box-text">
                 Experienced coding for iOS App in Swift, Objective C; and coding for web in JavaScript/ TypeScript, D3, PHP, HTML, CSS.
-              </div>
+              </h5>
             </div>
           </div>
           <!-- /CONTENT BOX -->     
           
           <div class="col-sm-4 col-md-4 col-lg-4">
             <div class="content-box">
-              <img src="assets/img/hobby/black/travel.png" class="img-responsive">
-              <div class="content-box-title font-inc font-uppercase">
-                Travel
-              </div>
-              <div class="content-box-text">
+              <img src="assets/img/hobby/travel.png" class="img-responsive">
+              <h4 class="content-box-title font-inc font-uppercase">
+                <strong>Travel</strong>
+              </h4>
+              <h5 class="content-box-text">
                 Traveling around the world has made me more open minded and broadened my perspective on the design industry.
-              </div>
+              </h5>
             </div>
           </div>
           <!-- /CONTENT BOX -->
@@ -157,30 +165,24 @@
           <!-- CONTENT BOX -->
           <div class="col-sm-4 col-md-4 col-lg-4">
             <div class="content-box">
-              <img src="assets/img/hobby/black/sports.png" class="img-responsive">
-              <div class="content-box-title font-inc font-uppercase">
-                Sports
-              </div>
-              <div class="content-box-text">
-                I love all kinds of sports. I cycled 2000 km in summer with my 14 dear teammates. I’m the champion of Sit-up at Peking University Athletic Meeting. I also love rock climbing, diving, hiking... 
-              </div>
+              <img src="assets/img/hobby/sports.png" class="img-responsive">
+              <h4 class="content-box-title font-inc font-uppercase">
+                <strong>Sports</strong>
+              </h4>
+              <h5 class="content-box-text">
+                I love all kinds of sports. I cycled 2000 km in summer with my 14 dear teammates. I’m the champion of Sit-up at University Athletic Meeting. I also love rock climbing, diving, hiking... 
+              </h5>
             </div>
           </div>
           <!-- /CONTENT BOX -->
 
         </div>
-      </div>
+      </div><br><br><br>
 
-
-      </div><! --/row -->
-    </div><! --/container -->
-  </section>
-
-<div class="project-narrow-content">
-  <div id="About_this_site">
-      <div class="container">
-        <h3>About This Site</h3><br>
-          <h4>This site was designed and coded with help and suggestions from many. Thanks to <a href="http://blog.pxpoi.cn/" target="_blank">Ben Li</a> and Jason Wang for technical support. And Shaojing Shen for my profile photo.</h4><br><br>
+      <p class="left-vertical-line margin-top-1">
+        <span class="key-word">About This Site</span>
+      </p>
+      <h4>This site was designed and coded with help and suggestions from many. Thanks <a href="http://blog.pxpoi.cn/" target="_blank">Ben Li</a> and Jason Wang for technical support. And <a href="http://http://tony-jin.com/html/home.html/" target="_blank">Tony Jin</a> for my profile photo.</h4><br><br><br><br><br>
       </div>
   </div>
 </div>
