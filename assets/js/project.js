@@ -49,6 +49,12 @@ $(function(){
             }
             current_top = whs;
         }
+
+        if($('.hover-link').offset().top - whs <= 390){
+            $('.hover-img').removeClass('hide')
+        } else {
+            $('.hover-img').addClass('hide')
+        }
     });
     $('.project-nav-toggle').on('click',function(e){
         $('.project-nav-toggle').toggleClass('project-nav-toggle-n');
@@ -57,4 +63,11 @@ $(function(){
 
     $('.top-img').height($(window).height());
     $('.float-nav').html($('.top-nav').html());
+
+    //about me 附图
+    $('.hover-link').mouseover(function() { 
+        $('.hover-img').show().attr('src', 'assets/img/about me/' + $(this).text() + '.png')
+    }).mouseout(function(){
+        $('.hover-img').attr('src', 'assets/img/about me/none.png').hide()
+    });
 });

@@ -13,7 +13,9 @@
     color: #71CBE2;
     padding-top: 68px;
 }
-
+.project-narrow-content {
+    position: relative;
+}
 a:hover {
     border-bottom-color: transparent;
     color:#71CBE2;
@@ -123,6 +125,18 @@ span.key-word {
     color: #000110;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 500;
+}
+img.hover-img {
+    position: fixed;
+    width: 28% !important;
+    right: 6%;
+    top: 0;
+    bottom: 0;
+}
+.hide {
+    display: none;
+    position: absolute !important;
+    bottom: unset !important;
 }
 
 @media screen and (max-width:415px){
