@@ -85,6 +85,12 @@ img{
     color: hsla(0,0%,100%,.8);
 }
 
+.project-nav-toggle i, .project-nav-toggle i::before, .project-nav-toggle i::after{
+    background: rgba(255, 255, 255, 0.8);
+}
+.project-nav-toggle-n i{
+    background: rgba(255, 255, 255, 0);
+}
 ul.row {
     width: 100%;
     height: auto;
@@ -128,7 +134,15 @@ ul.row {
     width: 100%;
     border: 1px solid #DDD;
 }
-
+@media screen and (max-width: 480px) {
+    .top-img {
+        height: auto !important;
+    }
+    .top-img > video {
+        margin: 0 !important;
+        width: 100%;
+    }
+}
 /*.project-aside {
     position: absolute;
     margin-left: -15%;
@@ -295,7 +309,11 @@ h2.page-header{
     font-family: 'Montserrat', sans-serif;
     padding-top: 100px;
 }
-
+@media screen and (max-width: 480px) {
+    h2.page-header {
+        padding-top: 55px;
+    }
+}
 hr {
   color: hsla(0,0%,100%,.9);
   background-color: hsla(0,0%,100%,.9);

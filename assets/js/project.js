@@ -49,12 +49,6 @@ $(function(){
             }
             current_top = whs;
         }
-
-        if($('.hover-link').offset().top - whs <= 390){
-            $('.hover-img').removeClass('hide')
-        } else {
-            $('.hover-img').addClass('hide')
-        }
     });
     $('.project-nav-toggle').on('click',function(e){
         $('.project-nav-toggle').toggleClass('project-nav-toggle-n');
