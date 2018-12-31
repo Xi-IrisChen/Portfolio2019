@@ -557,7 +557,7 @@ p.project-desc {
   line-height: 30px;
   font-family: "Myriad Pro", sans-serif;*/
   font-family: 'Avenir Next', sans-serif;
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   font-weight: 300;
   line-height: 1.5rem;
   color: #3c3c3c;
@@ -606,4 +606,10 @@ span.key-word {
     font-size: 0.75rem;
     font-weight: 600;
     line-height: 1.8rem;
+}
+
+.video-features {
+    width: 85%;
+    border-radius: 26px;
+    box-shadow: 2px 8px 44px rgba(0,0,0,0.10);
 }
