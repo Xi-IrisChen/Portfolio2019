@@ -2887,7 +2887,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled,  input[type="reset
 	-webkit-justify-content: center;
 	-ms-justify-content: center;
 	justify-content: center;
-	padding: 1rem 3rem 1rem 3.5rem;
+	padding: 1rem 3rem 0.5rem 3rem;
 }
 .panel.spotlight .image {
 	position: absolute;
@@ -3562,7 +3562,7 @@ img.profile-photo:hover::before {
 }
 
 .panel.piece {
-	width: 20em;
+	width: 21em;
 	cursor: pointer;
 }
 @media screen and (max-width: 480px) {
@@ -3619,6 +3619,50 @@ p.major {
 }
 
 #second:hover {
+	background: #FF6300;
+}
+
+#third:hover {
+	background: #7EC8DC;
+}
+
+#fourth:hover {
+	background: #fff;
+}
+#fourth:hover h2, #fourth:hover p {
+	color: rgba(116, 116, 116);
+}
+#fourth:hover h4 {
+	color: rgba(116, 116, 116, 0.5);
+}
+#fourth:hover h2::after {
+	background-color: rgba(116, 116, 116, 0.5);
+}
+
+#fifth:hover {
+	background: #fff;
+}
+#fifth:hover h2, #fifth:hover p {
+	color: rgba(116, 116, 116);
+}
+#fifth:hover h4 {
+	color: rgba(116, 116, 116, 0.5);
+}
+#fifth:hover h2::after {
+	background-color: rgba(116, 116, 116, 0.5);
+}
+
+#sixth:hover {
+	background: #7481E5;
+}
+
+#seventh:hover {
+	background: #91A7DD;
+}
+
+
+/*
+#second:hover {
 	background: #91A7DD;
 }
 #second:hover h2, #second:hover p {
@@ -3644,14 +3688,8 @@ p.major {
 	background-color: rgba(116, 116, 116, 0.5);
 }
 
-#forth:hover {
-	background: #7481E5;
-}
 
-#fifth:hover {
-	background: #7EC8DC;
-}
 
 #sixth:hover {
 	background: #FAAB73;
-}
+}*/
