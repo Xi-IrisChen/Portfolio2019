@@ -128,8 +128,8 @@ span.key-word {
 }
 img.hover-img {
     position: fixed;
-    width: 28% !important;
-    right: 6%;
+    width: 23% !important;
+    left: 57%;
     top: 0;
     bottom: 0;
 }
