@@ -20,14 +20,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<style>
 			
-		  /* Nav */
+		  /* Nav
 		.top-nav {
 			position: fixed;
 		    width: 800px;
 		    height: 15%;
 		    top: calc( 5% - 22px );
 		    left: calc( 50% - 400px);
-		}
+		}*/
 
 		.bottom-nav {
 		    width: 100%;
@@ -67,29 +67,36 @@
 			transition: all 0.1s;
 		}
 
+		.top-nav {
+			position: fixed;
+		    width: 100%;
+		    height: 68px;
+		    z-index: 99;
+		    top: 0px;
+		    opacity: 1;
+		    transition: all 0.3s;
+		    -webkit-transition: all 0.3s;
+		    -moz-transition: all 0.3s;
+		    -o-transition: all 0.3s;
+		}
+
 		.top-nav .logo {
 		    width: 4em;
 		    height: 2em;
 		    background: url(../../images/logo.png) no-repeat;
 		    background-size: contain;
-		    margin: 0 auto;
 		    margin-top: 20px;
+		    margin-left: 25px; 
 		}
 		.top-nav .nav {
-		    width: 320px;
-		    height: 30px;
-		    margin: 0 auto;
-		    padding: 0;
-		    margin-top: 35px;
+		    position: absolute;
+		    right: 20px;
+		    top: 20px;
 		}
 		.top-nav .nav a {
-		    position: relative;
-		    float: left;
-		    list-style: none;
-		    font-size: 17px;
-		    padding: 0;
-		    margin: 0 15px;
-		    cursor: pointer;
+		    font-size: 16px;
+		    padding: 0 10px;
+		    border: 0px;
 		    color: transparent !important;
 		    background-size: cover;
 		    background: linear-gradient(45deg,#8A2387,#E94057, #F27121,white,white);
@@ -97,6 +104,7 @@
 		    background-position: 100% 0;
 		    -webkit-background-clip: text;
 		    transition: all 0.5s;
+    
 		}
 		.top-nav .nav a:hover{
 			color: transparent;
@@ -108,9 +116,6 @@
 			transition: all 0.5s;
 		}
 		.nav a::after{
-			position: absolute;
-		    bottom: -14px;
-		    left: 0;
 		    content: '';
 		    width: 100%;
 		    height: 0px;
@@ -136,28 +141,27 @@
 		<!-- star -->
 		<div class="star-up"><div class="stars"></div></div>
 
-		<canvas id="starts">该浏览器不支持canvas</canvas>
 		<div class="mask"></div>
+		<div class="top-nav">
+			<a href="#zero"><div class="logo"></div></a>
+			<div class="nav">
+			    <a href="#first" class="nav-active">WORK</a>
+			    <a href="about.html">ABOUT</a>
+			    <a href="assets/Resume_Xi Chen.pdf" target="_blank">RESUME</a>
+			</div>
+		</div>
 		<div id="page-wrapper">
 			<div id="wrapper">
-				<div class="top-nav">
-					<a href="#zero"><div class="logo"></div></a>
-					<div class="nav">
-						<a href="#zero" class="nav-active">PORTFOLIO</a>
-						<a href="about.html">ABOUT</a>
-						<a href="assets/Resume_Xi Chen.pdf" target="_blank">RESUME</a>
-					</div>
-				</div>
+				
 				<!-- Xi -->
 				<section class="panel banner right panel-main" id="zero">
 					<div class="content color0 span-5-75 main-page">
 						<!--<h1 class="major-none"></h1>-->
-						<p>
-							<h1>UX + TECHNOLOGY</h1><br>
-							<h4>Welcome, I'm Xi.</h4>
-							<h5>A UX designer passionate about applying advanced technology to solve real world problem,  infusing efficiency and intelligence to daily life. </h5>
+							<h2 class="landing">HI! I'M XI</h2>
+							<h3 class="landing">UX Designer. Tech Enthusiast.</h3><br>
+							<p class="landing-major">Right now I’m a 1st year MS HCI student at Georgia Tech. I had my internship at Tencent and Microsoft Research Asia.<br>
+								I’m passionate about applying technology to solve real world problem and infusing efficiency and intelligence to daily life.</p>
 							<!--<h5>(Especially in the realm of AI, visualization, and accessibility)</h5>-->
-						</p>
 						<!--<ul class="actions">
 							<li>
 								<a href="#first" class="button special color1 circle icon fa-angle-right">Next</a>
@@ -166,13 +170,13 @@
 					</div>
 				</section>
 
-				<!-- Tencent -->
-				<section class="panel spotlight piece right" id="first" onclick="location.href='Tencent.html'">
+							<!-- Tencent -->
+				<section class="panel spotlight piece left" id="first" onclick="location.href='Tencent.html'">
 					<div class="content">
 						<div class="major-img" style="background-image:url(assets/img/main/tencent.png);"></div>
 						<h2 class="major">Tencent Internship</h2>
-						<h4 class="major-cate">Personalization | AI</h4>
-						<p class="major">​Personalize and recommend functions based on users' profile and context of use.</p>
+						<h4 class="major-cate">Feature Personalization | Do Not Disturb Mode</h4>
+						<p class="major">​Personalize all features in QQ Browser to increase feature discoverability.</p>
 					</div>
 				</section>	
 
@@ -187,17 +191,17 @@
 				</section>
 
 				<!-- Microsoft -->
-				<section class="panel spotlight piece left" id="fifth" onclick="location.href='InfoNice.html'">
+				<section class="panel spotlight piece left" id="third" onclick="location.href='InfoNice.html'">
 					<div class="content">
 						<div class="major-img" style="background-image:url(assets/img/main/microsoft.png)"></div>
 						<h2 class="major">Microsoft Internship</h2>
-						<h4 class="major-cate">Information Visualization | Web Development</h4>
+						<h4 class="major-cate">Data Visualization | Web Development</h4>
 						<p class="major">​Enable users to create data-driven infographics easily. It’s already launched!</p>
 					</div>
 				</section>
 
 				<!-- Align -->
-				<section class="panel spotlight piece left" id="third" onclick="location.href='Align.html'">
+				<section class="panel spotlight piece left" id="fourth" onclick="location.href='Align.html'">
 					<div class="content">
 						<div class="major-img" style="background-image:url(assets/img/main/align.png);"></div>
 						<h2 class="major">Align</h2>
@@ -207,7 +211,7 @@
 				</section>
 
 				<!-- InsVoice -->
-				<section class="panel spotlight piece left" id="fourth" onclick="location.href='InsVoice.html'">
+				<section class="panel spotlight piece left" id="fifth" onclick="location.href='InsVoice.html'">
 					<div class="content">
 						<div class="major-img" style="background-image:url(assets/img/main/insvoice.png)"></div>
 						<h2 class="major">InsVoice</h2>
@@ -221,7 +225,7 @@
 					<div class="content">
 						<div class="major-img" style="background-image:url(assets/img/main/infNote.png);"></div>
 						<h2 class="major">InfNote</h2>
-						<h4 class="major-cate">Blockchain</h4>
+						<h4 class="major-cate">Blockchain | Freelance</h4>
 						<p class="major">Blockchain based forum which provides peer-to-peer posts. Both web and app are launched!</p>
 					</div>
 				</section>
@@ -245,7 +249,6 @@
 						<p class="major">​Enhance navigational experience for people with different physical abilities.</p>
 					</div>
 				</section>
-
 				<!-- Gesture Detection -->
 				<!--<section class="panel spotlight piece left" id="sixth" onclick="location.href='Finger.html'">
 					<div class="content">
@@ -256,6 +259,7 @@
 					</div>
 				</section>-->
 			</div>
+
 		</div>
 
 		<script src="assets/js/jquery.min.js"></script>
