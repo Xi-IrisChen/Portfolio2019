@@ -58,8 +58,9 @@ $(function(){
     $('.top-img').height($(window).height());
     $('.float-nav').html($('.top-nav').html());
 
-    //about me 附图
-    $('.hover-link').mouseover(function() { 
+    //about me project area hover
+    $('.hover-link').mouseover(function() {
+        console.log($(this).text());
         $('.hover-img').show().attr('src', 'assets/img/about me/' + $(this).text() + '.png')
     }).mouseout(function(){
         $('.hover-img').attr('src', 'assets/img/about me/none.png').hide()

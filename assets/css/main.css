@@ -322,7 +322,7 @@ h1.major:after {
 
 }
 h2 {
-	font-size: 3rem;
+	font-size: 3.5rem;
 	line-height: 1.2;
 	font-weight: 600;
 }
@@ -336,10 +336,11 @@ h2.major:after {
 	bottom: -1.2rem;
 }
 h3 {
-	font-size: 1.2rem;
+	font-size: 1.5rem;
 }
 h3.landing {
-	color: rgba(255, 248, 162);
+	/*color: rgba(255, 248, 162);*/
+	color: rgba(113, 203, 226);
 	margin-bottom: 10px;
 	margin-top: 10px;
 }
@@ -3219,8 +3220,8 @@ body {
 		}
 
 		.top-nav .logo {
-		    width: 4em;
-		    height: 2em;
+		    width: 3.5em;
+		    height: 1.7em;
 		    background: url(../../images/logo.png) no-repeat;
 		    background-size: contain;
 		    margin-top: 20px;
@@ -3603,7 +3604,7 @@ p.major {
 	padding: 0 0;
 }
 p.landing-major {
-	font-size: 0.68rem;
+	font-size: 0.78rem;
 	padding: 0 0;
 	line-height: 2;
 }

@@ -77,8 +77,8 @@ a:hover {
 }
 */
 
-#aboutProfile {
-}
+
+
 #aboutProfile img{
     width: 20%;
 	/*float: right;
@@ -89,12 +89,28 @@ a:hover {
 	/*width: 70%;
 	float: left;*/
 }
+#aboutProfile h2 {
+    font-size: 1.25rem;
+    color: #000110;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 2.2rem;
+    position: relative;
+    background-image: linear-gradient(to right, transparent 50%, #71CBE2 50%);
+    background-origin: 0;
+    background-size: 200% 30%;
+    background-repeat: repeat-x;
+    background-position: -100% 80%;
+    transition: background-position 0.8s ease-out;
+}
+
 #aboutProfile h3{
-	font-size: 0.89rem;
+	font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
 }
 #aboutProfile h4{
 	font-size: 0.75rem;
-	font-family: 'Avenir Next', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	line-height: 23px;
 }
 #aboutProfile h4 strong{
@@ -103,8 +119,31 @@ a:hover {
 
 #aboutProfile h5{
     font-size: 0.70rem;
-    font-family: 'Avenir Next', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 19px;
+}
+/*#aboutProfile p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: #3c3c3c;
+}*/
+p.aboutme {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: #3c3c3c;
+}
+
+p.quote{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 1.5rem;
+    color: #3c3c3c;
 }
 
 #hobbies h3{
@@ -112,7 +151,7 @@ a:hover {
 }
 #hobbies h4{
 	font-size: 1.1em;
-	font-family: 'Avenir Next', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	line-height: 23px;
 }
 #hobbies h4 strong{
@@ -121,10 +160,10 @@ a:hover {
 
 span.key-word {
     margin-left: 20px;
-    font-size: 0.89rem;
+    font-size: 1.2rem;
     color: #000110;
-    font-family: 'Avenir Next', sans-serif;
-    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 img.hover-img {
     position: fixed;
@@ -138,6 +177,7 @@ img.hover-img {
     position: absolute !important;
     bottom: unset !important;
 }
+
 
 @media screen and (max-width:415px){
     #project-main{
