@@ -3627,17 +3627,18 @@ p.landing-major {
 }
 
 #first:hover {
-	background: #FFF;
+	background: #fff;
 }
 #first:hover h2, #first:hover p {
-	color: rgba(0, 77, 220, 0.78);
+	color: rgba(0, 0, 0);
 }
 #first:hover h4 {
-	color: rgba(0, 77, 220, 0.5);
+	color: rgba(0, 0, 0, 0.5);
 }
 #first:hover h2::after {
-	background-color: rgba(0, 77, 220, 0.5);
+	background-color: rgba(0, 0, 0, 0.5);
 }
+
 
 #second:hover {
 	background: #FF6300;
@@ -3647,38 +3648,79 @@ p.landing-major {
 	background: #fff;
 }
 #third:hover h2, #third:hover p {
-	color: rgba(116, 116, 116);
+	color: rgba(24, 119, 242);
 }
 #third:hover h4 {
-	color: rgba(116, 116, 116, 0.5);
+	color: rgba(24, 119, 242, 0.5);
 }
 #third:hover h2::after {
-	background-color: rgba(116, 116, 116, 0.5);
+	background-color: rgba(24, 119, 242, 0.5);
 }
 
+
 #fourth:hover {
-	background: #7EC8DC;
+	background: #FFF;
+}
+#fourth:hover h2, #fourth:hover p {
+	color: rgba(0, 77, 220, 0.78);
+}
+#fourth:hover h4 {
+	color: rgba(0, 77, 220, 0.5);
+}
+#fourth:hover h2::after {
+	background-color: rgba(0, 77, 220, 0.5);
 }
 
 #fifth:hover {
 	background: #fff;
 }
 #fifth:hover h2, #fifth:hover p {
-	color: rgba(116, 116, 116);
+	color: rgba(66, 133, 244);
 }
 #fifth:hover h4 {
-	color: rgba(116, 116, 116, 0.5);
+	color: rgba(66, 133, 244, 0.5);
 }
 #fifth:hover h2::after {
+	background-color: rgba(66, 133, 244, 0.5);
+}
+
+
+#sixth:hover {
+	background: #fff;
+}
+#sixth:hover h2, #sixth:hover p {
+	color: rgba(116, 116, 116);
+}
+#sixth:hover h4 {
+	color: rgba(116, 116, 116, 0.5);
+}
+#sixth:hover h2::after {
 	background-color: rgba(116, 116, 116, 0.5);
 }
 
-#sixth:hover {
-	background: #7481E5;
-}
+
 
 #seventh:hover {
-	background: #91A7DD;
+	background: #7EC8DC;
+}
+
+
+#eighth:hover {
+	background: #fff;
+}
+#eighth:hover h2, #eighth:hover p {
+	color: rgba(0, 0, 0);
+}
+#eighth:hover h4 {
+	color: rgba(0, 0, 0, 0.5);
+}
+#eighth:hover h2::after {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+#nineth:hover {
+	background: #7481E5;
 }
 
 
